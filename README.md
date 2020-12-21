@@ -29,6 +29,12 @@
   <img align="left" alt="Stackoverflow" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg" />
 </a>
 
+<br>
+
+--------------
+
+Experience of over 15 years in IT, going through several highly complex projects, I have focused on developing innovations for the main clients of the consultancies I worked on, such as: Development of responsive and hybrid applications for mobile devices (SAPui5, SAP Cloud Platform, Apps like Fiore), Development of dashboards, semantic layer and reports for business intelligence (SAP BO), coordination of technical team with application of agile methodologies, development of iot solution (internet of things) for implantation in the industry and in other segments of Business.
+
 --------------
 
 ![Aryclenio GitHub Stats](https://github-readme-stats.vercel.app/api?username=NunesTom&show_icons=true) 
