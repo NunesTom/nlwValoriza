@@ -1,10 +1,13 @@
-# Estudo NLW/Together
+# Estudo NLW/Together - Valoriza
 Projeto de estudo para fixar o conhecimento em Node.js e typescript.
+
+## Regras da aplicação
+
 
 ## Aulas
 
 - [x] Aula 01 – Liftoff - #together
-- [ ] Aula 02 – Maximum Speed
+- [x] Aula 02 – Maximum Speed
 - [ ] Aula 03 – In Orbit
 - [ ] Aula 04 – Landing
 - [ ] Aula 05 – Surface Exploration
