@@ -7,13 +7,13 @@ interface ITagRequest {
 
 class CreateTagService {
   async execute({ name }: ITagRequest) {
-    const TagsRepository = getCustomRepository(TagsRepositories);
+    const tagsRepository = getCustomRepository(TagsRepositories);
 
     if (!name) {
       throw new Error("Incorrect name");
     }
 
-    const tagAlreadyExists = await TagsRepository.findOne({
+    const tagAlreadyExists = await tagsRepository.findOne({
       name
     });
 
@@ -21,11 +21,11 @@ class CreateTagService {
       throw new Error("Tag already exists");
     }
 
-    const tag = TagsRepository.create({
+    const tag = tagsRepository.create({
       name
     });
 
-    await TagsRepository.save(tag);
+    await tagsRepository.save(tag);
 
     return tag;
   }

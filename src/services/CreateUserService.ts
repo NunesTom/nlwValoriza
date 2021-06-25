@@ -10,14 +10,14 @@ interface IUserRequest {
 }
 
 class CreateUserService {
-  async execute({ name, email, admin, password }: IUserRequest) {
-    const UsersRepository = getCustomRepository(UsersRepositories);
+  async execute({ name, email, admin = false, password }: IUserRequest) {
+    const usersRepository = getCustomRepository(UsersRepositories);
 
     if (!email) {
       throw new Error("Email incorrect");
     }
 
-    const userAlreadyExists = await UsersRepository.findOne({
+    const userAlreadyExists = await usersRepository.findOne({
       email
     });
 
@@ -27,14 +27,14 @@ class CreateUserService {
 
     const passwordHash = await hash(password, 8);
 
-    const user = UsersRepository.create({
+    const user = usersRepository.create({
       name,
       email,
       admin,
       password: passwordHash
     });
 
-    await UsersRepository.save(user);
+    await usersRepository.save(user);
 
     delete user.password;
 
