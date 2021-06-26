@@ -9,7 +9,7 @@ Projeto de estudo para fixar o conhecimento em Node.js e typescript.
 - [x] Aula 01 – Liftoff - #together
 - [x] Aula 02 – Maximum Speed - #unidade
 - [x] Aula 03 – In Orbit - #embuscadeevolução
-- [ ] Aula 04 – Landing
+- [x] Aula 04 – Landing - #legacy
 - [ ] Aula 05 – Surface Exploration
 
 ## Bibliotecas
