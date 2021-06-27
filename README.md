@@ -10,7 +10,7 @@ Projeto de estudo para fixar o conhecimento em Node.js e typescript.
 - [x] Aula 02 – Maximum Speed - #unidade
 - [x] Aula 03 – In Orbit - #embuscadeevolução
 - [x] Aula 04 – Landing - #legacy
-- [ ] Aula 05 – Surface Exploration
+- [ ] Aula 05 – Surface Exploration - juntos no próximo nível
 
 ## Bibliotecas
 

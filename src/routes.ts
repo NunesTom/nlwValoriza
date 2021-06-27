@@ -5,7 +5,7 @@ import { ensureAdmin } from "./middlewares/ensureAdmin";
 import { ensureAuthenticated } from "./middlewares/ensureAuthenticated";
 import { AuthenticateUserController } from "./controllers/AuthenticateUserController";
 import { CreateComplimentController } from "./controllers/CreateComplimentController";
-import { ListUserReceiveComplimentsController } from "./controllers/ListUserREceiveComplimentsController";
+import { ListUserReceiveComplimentsController } from "./controllers/ListUserReceiveComplimentsController";
 import { ListUserSendComplimentsController } from "./controllers/ListUserSendComplimentsController"
 import { ListTagsController } from "./controllers/ListTagsController"
 import { ListUsersController } from "./controllers/ListUsersController"
